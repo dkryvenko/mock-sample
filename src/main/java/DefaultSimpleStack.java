@@ -1,5 +1,8 @@
 import java.util.List;
 
+/**
+ * The class adapts instance of List to interact as SimpleStack  
+ */
 public class DefaultSimpleStack<T> implements SimpleStack<T> {
 
 	List<T> adaptee;
